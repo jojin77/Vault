@@ -14,7 +14,7 @@ deploy:
     context: jojin77/DEV
     type: statefulset
     ingress: none
-    replicas: 1
+    replicas: 2
     port:
     - 8200
     - 80
