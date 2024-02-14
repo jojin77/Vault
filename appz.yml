@@ -4,7 +4,7 @@ app:
     notify: jjpaul@ecloudcontrol.com
 
 build:
-    version: 0.4
+    version: 1.2
     env: DEV
     build_file: none
     output_files: output/*.zip
