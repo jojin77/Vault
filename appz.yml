@@ -13,7 +13,7 @@ build:
 deploy:
     context: jojin77/DEV
     type: statefulset
-    ingress: NodePort
+    ingress: None
     replicas: 2
     port:
     - 8200
